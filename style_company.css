@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font-size: 23px;
+    opacity: 0.8;
+    color: #FA8072;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    letter-spacing: 0.65px;
+    margin: 30px 30px;
+}
+
+.intro{
+    position: relative;
+    max-width: 100%;
+    background: grey;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background: url(./img/logo2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+ .bar{
+  width: 100%;
+    height: 77px;
+    background: black;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.root__menu_top{
+    margin: 0 0 0 20px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a{
+
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background:#D3D3D3 ;
+    color: black;
+}
+.welcome{
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.welcome_to{
+    color: #fcf9f7;
+    font-family: Baskerville;
+    font-size: 68px;   
+}
+
+.yourcompany{
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 48px;
+}
+.content{
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    max-width: 1342px;
+    width: 100%;
+    margin: 0 auto;
+}
+.team__title{
+    margin: 80px;
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.item__title{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.team__description{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    text-align: center;
+    width: 800px;
+}
+.team__description {
+  padding: 0 180px 0 180px;
+  text-align: center;
+}
+
+.team__items-block {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 55px;
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__img {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.item__img img {
+  width: 213px;
+  height: 267px;
+}
+
+.item__title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.item__desc {
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  height: 128px;
+  width: 225px;
+}
